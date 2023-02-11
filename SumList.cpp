@@ -29,8 +29,10 @@ int main()
   vector<int> list;
   int number;
   while(cin>>number) list.push_back(number);
+  // Sum & product of user input list
   printf("Sum of list = %d\n", SumList(list));
   printf("Product of list = %d\n", ProductList(list));
+  // Reverse of user input list
   vector<int> reversedList = ReversedList(list);
   printf("Reversed List Result\n");
   for(int i = 0; i < reversedList.size(); i++){
